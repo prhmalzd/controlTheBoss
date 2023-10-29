@@ -1,0 +1,20 @@
+.worker {
+  position: absolute;;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border: 1px solid black;
+  z-index: 20;
+  cursor:pointer
+}
+
+.placesCanGo {
+  position: absolute;;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(109, 233, 255);
+  opacity: 0.3;
+  top: 50px;
+  left: 50px;
+  cursor: pointer;
+}

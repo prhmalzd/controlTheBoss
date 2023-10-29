@@ -1,0 +1,26 @@
+.mainBoard {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(12, 50px);
+  grid-template-rows: repeat(12, 50px);
+  gap: 0;
+  background-color: #feffa9;
+  padding: 50px;
+}
+
+
+.oneSquareInBoard {
+  width: 49px;
+  height: 49px;
+  border: solid 1px black;
+
+}
+
+.dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 100%;
+}

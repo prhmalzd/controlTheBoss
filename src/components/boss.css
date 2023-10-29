@@ -1,0 +1,42 @@
+.anb {
+  position: absolute;
+  width: 39px;
+  height:39px;
+  border: 1px solid black;
+}
+
+
+.wa {
+  background-color: white;
+}
+
+.wb {
+  background-color: white;
+  border-radius: 100%;
+}
+
+.ba {
+  background-color: black;
+}
+
+.bb {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.ga {
+  background-color: green;
+}
+
+.gb {
+  background-color: green;
+  border-radius: 100%;
+}
+.pa {
+  background-color: pink;
+}
+
+.pb {
+  background-color: pink;
+  border-radius: 100%;
+}
