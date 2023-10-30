@@ -5,6 +5,7 @@ import { useState } from "react"
 import { workersInformation } from "./infos/infos"
 import Boss from './components/Boss'
 import { checkForPlacesWorkerCanGo } from "./functioanality/checkForPlacesWorkerCanGo"
+import ShowDirectionMount from "./components/ShowDirectionMounts"
 
 
 const App = () => {
@@ -47,7 +48,7 @@ const App = () => {
       <Board onBoardClicked={onBoardClicked}/>
       {
       workersPlacement.map((element) => {
-        return <Worker key={element.id} id={element.id} top={element.top} left={element.left} showPlacesWorkerCanGoTo={showPlacesWorkerCanGoTo}/>
+        return <Worker key={element.id} id={element.id} top={element.top} left={element.left} showPlacesWorkerCanGoTo={showPlacesWorkerCanGoTo} workersPlacement={workersPlacement}/>
       })
       }
       {placesCanGo.map((place, i) => {
@@ -55,7 +56,8 @@ const App = () => {
           return <PlacesCanGo key={i} top={place.top} left={place.left} moveTheWorker={moveTheWorker}/>
         }
       })}
-      <Boss forTheBossQordinate={forTheBossQordinate}/>
+      <Boss forTheBossQordinate={forTheBossQordinate} workersPlacement={workersPlacement}/>
+      <ShowDirectionMount forTheBossQordinate={forTheBossQordinate}/>
     </div>)
 }
 

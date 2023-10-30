@@ -1,0 +1,14 @@
+.directionShowBox {
+  margin-top: 2px;
+  width: 698px;
+  height: 80px;
+  background-color: #feffa9;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+}
+
+.directionShowBox div {
+  width: 170px;
+  text-align: center;
+}

@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import './worker.css'
 
 
-const Worker = ({id, top, left, showPlacesWorkerCanGoTo}) => {
+const Worker = ({id, top, left, showPlacesWorkerCanGoTo, workersPlacement}) => {
+  const [wow, setWow] = useState(0)
 
   const onClick = (event) => {
     const topQordinate = event.target.offsetTop

@@ -4,7 +4,7 @@
   height: 24px;
   background-color: red;
   border: 1px solid black;
-  z-index: 20;
+  z-index: 10;
   cursor:pointer
 }
 
@@ -17,4 +17,5 @@
   top: 50px;
   left: 50px;
   cursor: pointer;
+  z-index: 11;
 }
