@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/controltheboss/static/css/main.133476e9.css",
-    "main.js": "/controltheboss/static/js/main.1d512fcf.js",
-    "index.html": "/controltheboss/index.html",
-    "main.133476e9.css.map": "/controltheboss/static/css/main.133476e9.css.map",
-    "main.1d512fcf.js.map": "/controltheboss/static/js/main.1d512fcf.js.map"
+    "main.css": "/static/css/main.133476e9.css",
+    "main.js": "/static/js/main.1d512fcf.js",
+    "index.html": "/index.html",
+    "main.133476e9.css.map": "/static/css/main.133476e9.css.map",
+    "main.1d512fcf.js.map": "/static/js/main.1d512fcf.js.map"
   },
   "entrypoints": [
     "static/css/main.133476e9.css",
