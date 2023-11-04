@@ -4,6 +4,7 @@
   height:39px;
   border: 1px solid black;
   z-index: 12;
+  transition: top 0.2s, left 0.2s;
 }
 
 
@@ -34,10 +35,10 @@
   border-radius: 100%;
 }
 .pa {
-  background-color: pink;
+  background-color: blue;
 }
 
 .pb {
-  background-color: pink;
+  background-color: blue;
   border-radius: 100%;
 }

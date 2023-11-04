@@ -1,0 +1,33 @@
+.mainMenu{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(182, 182, 182);
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.playButton ,.selSheetButton {
+  border: none;
+  padding: 20px;
+  font-size: 1.2em;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #feffa9;
+  
+}
+
+.playButton:hover, .selSheetButton:hover {
+  background-color: #fcff4c;
+}
+.playButton:active, .selSheetButton:active {
+  background-color: #fbff10;
+
+}

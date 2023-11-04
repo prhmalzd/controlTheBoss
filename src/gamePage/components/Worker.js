@@ -1,9 +1,20 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import './worker.css'
 
 
 const Worker = ({id, top, left, showPlacesWorkerCanGoTo, workersPlacement}) => {
   const [wow, setWow] = useState(0)
+  const showHowManyWorkersOnEachOther = (wow > 1) ? wow : ''
+
+  useEffect(()=> {
+    let num = 1
+    workersPlacement.map((obj) => {
+      if (obj.top === top && obj.left === left && obj.id !== id) {
+        num++
+      }
+    })
+    setWow(num)
+  },[workersPlacement])
 
   const onClick = (event) => {
     const topQordinate = event.target.offsetTop
@@ -23,6 +34,7 @@ const Worker = ({id, top, left, showPlacesWorkerCanGoTo, workersPlacement}) => {
       onClick={onClick}
       className={'worker'}
       style={{top: top+'px', left: left+'px'}}>
+        {showHowManyWorkersOnEachOther}
     </div>
   )
 }

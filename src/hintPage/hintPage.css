@@ -1,0 +1,80 @@
+.hintPageBox {
+    width: 600px;
+    height: auto;
+    background-color: #feffa9;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.howtoplayBox{
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    font-size: 2em;
+}
+.level {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    gap: 20px;
+}
+.level p {
+    text-align: end;
+}
+.howtoplayBox h1 {
+    padding-bottom: 50px;
+}
+
+.howtoplayBox p {
+    text-align: end;
+    padding-top: 20px;
+}
+
+.nextButton{
+
+    background-color: #e90000;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-left: 5px;
+}
+
+.nextButton:hover {
+    background-color: #ff1616;
+}
+
+.nextButton:active {
+    background-color: #be0000;
+
+}
+
+.play {
+    margin-top: 20px;
+    font-size: .5em;
+}
+.menu {
+    background-color: #0023e9;
+}
+.menu:hover {
+    background-color: #2041ff;
+
+}
+.menu:active {
+    background-color: #0019a8;
+
+}
+.menuBttuon {
+    position: absolute;
+    top: 0;
+}
