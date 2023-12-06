@@ -1,4 +1,4 @@
-a 2D game designed by myself.
+a 2D game i designed.
 the visual beauty and CSS have not yet been completed.
 you can experience the game from link below 👇👇
 
