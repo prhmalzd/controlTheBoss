@@ -1,3 +1,5 @@
+# Control The Boss
+
 a 2D game i designed.
 the visual beauty and CSS have not yet been completed.
 you can experience the game from link below 👇👇
